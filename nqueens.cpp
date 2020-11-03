@@ -35,7 +35,7 @@ void search(int row) {
 }
 
 int main() {
-  std::cout << "Please write the number of queens and grid size" << std::endl;
+  std::cout << "Please write the number of queens and grid size: ";
   std::cin >> n;
   q = new int[n];
   t = new int* [n];
